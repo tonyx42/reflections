@@ -1,0 +1,22 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+I was able to read the format to see which lines have been inserted, deleted or modified.
+So I focused only in what changed from the old version to the new version, and it was easy to spot the typo
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+You can perform experiments and when they don't work, discard them and go back to the old ones and try a new experiment.
+It makes you aware of all the changes that happen in a file, even unintentional ones.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Well, by doing it manual you can break it and commit whenever you want and make "logical" commits that separate the work on your program in such a way that you and others
+can understand whta each change was made for.
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+They aren't code oriented, the modification of one file usually doesn't affect the others when we are not coding interrelated files.
+think about the work in terms of a bucnh of steps and be able to ientify and correct changes if needed
+How can you use the commands git log and git diff to view the history of files?
+Git log allows us to see all of the commits (changes) along with their Id's, then we can select between two commit and apply diff to se what changed between those 2 commits.
+How might using version control make you more confident to make changes that could break something?
+If I break something I can just go back to the last working instance and discard my bad changes, try a new approach.
+Exploration and experimentatio are easier. 
+Now that you have your workspace set up, what do you want to try using Git for?
+developing an android app, doing my homework, but that something else from Android Studio, Right now command line I could use it for simple python scripts. (i need to see about branches)
+GIT LOG ALLOWS YOU TO FIND A BUG WITHOUT HAVING TO KNOW THE CODEBASE, YOU CAN KNOW WHEN IT WAS INTRODUCED
+
+fa4c6bade4970c282b3870ad16f1bde8164663a9
