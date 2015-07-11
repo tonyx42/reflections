@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+Creates a .git folder and other config files to start tracking the changes in the dire/repository
